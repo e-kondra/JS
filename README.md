@@ -1,2 +1,2 @@
 # JS
-Java Script
+Базовый курс JavaScript
