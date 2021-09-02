@@ -1,0 +1,17 @@
+
+.basketStyle{
+    width: 50%;
+    margin-bottom: 5px;
+    background: rgb(189, 156, 190);
+    border: 1px solid #000;
+}
+.good{
+    border: 1px solid #000;
+    width: 50%;
+    margin-bottom: 5px;
+    background: rgb(196, 180, 180);
+}
+
+.btn{
+    text-transform: uppercase;
+}
