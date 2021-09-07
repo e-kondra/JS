@@ -379,7 +379,8 @@ const game = {
     },
 
     getRandomFreeCoordinates() {
-        const exclude = [this.food.getCoordinates(), ...this.snake.getBody().concat(this.obstraction.obstractCoordinatesArray)];
+
+        const exclude = [this.food.getCoordinates(), ...this.snake.getBody().concat(this.obstraction.obstractArray)];
 
         while (true) {
             const rndPoint = {
